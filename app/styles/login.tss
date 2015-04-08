@@ -1,0 +1,88 @@
+//don vi mac dinh la dp do duoc cau hinh trong file tiapp.xml
+/*
+ * Boder Frame - Main frame
+ */
+"#loginWin":{
+	// statusBarStyle : Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT,
+	fullscreen: true,
+	navBarHidden: true,
+	layout: 'absolute',
+	exitOnClose: true,
+	barColor: '#00918d',
+	backgroundColor: '#16cab8',
+	font:{
+		fontFamily: 'SegoeUI-Light'
+	}
+}
+
+/*
+ * Images View
+ */
+"#imageViettel":{
+	
+	color: "#fff",
+	backgroundColor: "transparent",
+	image: "/images/logo_viettel_big.png",
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE,
+	
+}
+
+
+/*
+ * Content - form Login include txtUser,txtPass,btnLogin,imagelogoViettel
+ */
+".content":{
+	top: "10",
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.SIZE,
+	backgroundColor: 'transparent',
+	separatorColor: 'transparent',
+	layout: 'vertical'
+}
+/*
+ * Format for txtUser and txtPassword
+ */
+".txtInput":{
+	tintColor: 'black',
+	top: '10',
+	color: '#777777',
+	width: '250',
+	height: '35',
+	font: {
+		fontFamily: 'SegoeUI-Light',
+		fontWeight: 'italic',
+		fontSize: '15'
+	},
+	borderRadius: '3',
+	backgroundColor: '#fff',
+	keyboardType: Titanium.UI.KEYBOARD_DEFAULT, //kieu ban phim
+	returnKeyType: Titanium.UI.RETURNKEY_DEFAULT,
+	paddingLeft:'5',
+	
+}
+
+"#txtUser":{}
+"#txtPass":{}
+/*
+ * Format for Button Login...
+ */
+".btnButton":{
+	color: '#FFFFFF',
+	font: {
+		fontSize: 15,
+		fontFamily: 'SegoeUI-Light',
+		fontWeight: 'bold'
+	},
+	top: 10,
+	width: 250,
+	height: 35,
+	backgroundColor: '#00918d',
+	borderRadius: 3,
+	separatorColor: 'transparent',
+	layout: 'horizontal'
+}
+"#btnLogin":{}
+
+
+
