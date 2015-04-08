@@ -2,7 +2,7 @@
 	<Window id="loginWin" class="container" >
         	
 		<View class="content" >
-			<ImageView id="imageViettel"/>
+			<Label class="login-title"></Label>
 			<TextField id="txtUser" class="txtInput" hintText="Tên người dùng" value="" />
 			<TextField id="txtPass" class="txtInput" hintText="Mật khẩu"  passwordMask="true" value=""/>			
 			<Button id="btnLogin" class="btnButton" >Đăng nhập</Button>

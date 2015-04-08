@@ -4,12 +4,12 @@
  */
 "#loginWin":{
 	// statusBarStyle : Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT,
-	fullscreen: true,
-	navBarHidden: true,
+	fullscreen: true,	
 	layout: 'absolute',
+	navBarHidden:true,
 	exitOnClose: true,
 	barColor: '#00918d',
-	backgroundColor: '#16cab8',
+	backgroundColor: '#4281d0',
 	font:{
 		fontFamily: 'SegoeUI-Light'
 	}
@@ -18,14 +18,19 @@
 /*
  * Images View
  */
-"#imageViettel":{
-	top:"65px",
+".login-title":{
+	top:'65',
 	color: "#fff",
-	backgroundColor: "transparent",
-	image: "/images/logo_viettel_big.png",
+	backgroundColor: "transparent",	
 	width: Titanium.UI.SIZE,
 	height: Titanium.UI.SIZE,
-	
+	text:"VIETTEL HOME",
+	font:{
+		fontFamily: 'SegoeUI-Light',
+		fontWeight:'bold',
+		fontSize:'20'
+	},
+	bottom:"50"
 }
 
 
@@ -35,30 +40,33 @@
 ".content":{
 	top: "10",
 	width: Titanium.UI.FILL,
-	height: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE,	
 	backgroundColor: 'transparent',
 	separatorColor: 'transparent',
-	layout: 'vertical'
+	layout: 'vertical',
+	
 }
 /*
  * Format for txtUser and txtPassword
  */
 ".txtInput":{
 	tintColor: 'black',
-	top: '10',
+	top: 10,
+	paddingLeft:20,
 	color: '#777777',
-	width: '250',
-	height: '35',
+	width: 250,
+	height: 35,
 	font: {
 		fontFamily: 'SegoeUI-Light',
 		fontWeight: 'italic',
 		fontSize: '15'
+		
 	},
-	borderRadius: '3',
-	backgroundColor: '#fff',
+	borderRadius: '10',
+	backgroundColor: '#f4f8fc',
 	keyboardType: Titanium.UI.KEYBOARD_DEFAULT, //kieu ban phim
-	returnKeyType: Titanium.UI.RETURNKEY_DEFAULT,
-	paddingLeft:'5',
+	returnKeyType: Titanium.UI.RETURNKEY_DEFAULT,	
+	
 	
 }
 
@@ -68,16 +76,16 @@
  * Format for Button Login...
  */
 ".btnButton":{
-	color: '#FFFFFF',
+	color: '#8dc8ff',
 	font: {
 		fontSize: 15,
 		fontFamily: 'SegoeUI-Light',
 		fontWeight: 'bold'
 	},
 	top: 10,
-	width: 250,
-	height: 35,
-	backgroundColor: '#00918d',
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE,
+	backgroundColor: '#f4f8fc',
 	borderRadius: 3,
 	separatorColor: 'transparent',
 	layout: 'horizontal'
