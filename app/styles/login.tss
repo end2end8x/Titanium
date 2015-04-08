@@ -19,7 +19,7 @@
  * Images View
  */
 "#imageViettel":{
-	
+	top:"65px",
 	color: "#fff",
 	backgroundColor: "transparent",
 	image: "/images/logo_viettel_big.png",
